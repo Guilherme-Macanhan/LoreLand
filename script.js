@@ -2,9 +2,6 @@
 
 
 
-/**
- * add event on multiple elements
- */
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
@@ -16,7 +13,6 @@ const addEventOnElements = function (elements, eventType, callback) {
 
 /**
  * MOBILE NAVBAR
- * navbar will show after clicking menu button
  */
 
 const navbar = document.querySelector("[data-navbar]");
@@ -41,7 +37,7 @@ addEventOnElements(navLinks, "click", navClose);
 
 /**
  * HEADER and BACK TOP BTN
- * header and back top btn will be active after scrolled down to 100px of screen
+
  */
 
 const header = document.querySelector("[data-header]");
